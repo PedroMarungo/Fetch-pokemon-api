@@ -1,6 +1,12 @@
-# Pokemon Open API App
+# Name
 
+## Pokemon Open API App
+
+# Description
 This repository contains a web application that utilizes the Pokemon Open API. The application consists of an HTML page, CSS styles, and a JavaScript file that utilizes the Fetch API and modern ES6 syntax.
+
+## Author 
+Developer: Pedro Marungo
 
 ## Usage
 
