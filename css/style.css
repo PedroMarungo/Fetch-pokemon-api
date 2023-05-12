@@ -53,3 +53,53 @@
   font-size: 2.2rem;
   background-color: var(--color-darker-shade);
 }
+/*------------------------------------*\
+  card container styles
+\*------------------------------------*/
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  background-color: var(--color-light-shade);
+  background-image: url("../pattern.jpg");
+  color: var(--color-white-shade);
+}
+.card {
+  background-color: var(--color-dark-shade);
+  text-align: center;
+  list-style: none;
+  border-radius: 1rem;
+  box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.2);
+  width: 22%;
+  margin-top: 1rem;
+}
+.card-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  color: var(--color-white-shade);
+  border-radius: 10px;
+  background: var(--color-red-shade); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+  background: linear-gradient(to right, #b31217, #e52d27);
+}
+.card-info:hover {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+.card h3 {
+  font-size: 2.5rem;
+  font-family: "Passion One", cursive;
+  color: var(--color-light-shade);
+}
+.card p {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "Carter One", cursive;
+  font-size: 1.2rem;
+}
+.card img {
+  width: 55%;
+}
