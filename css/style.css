@@ -5,3 +5,19 @@
 /*------------------------------------*\
   global color variables 
 \*------------------------------------*/
+:root {
+  /* Red primary color */
+  --color-red-shade: #ff0303;
+
+  /* White primary background */
+  --color-light-shade: #fdfcfc;
+
+  /* Black primary text */
+  --color-dark-shade: #111;
+
+  /* Black secondary text */
+  --color-darker-shade: #000;
+
+  /* White secondary background */
+  --color-white-shade: #fff;
+}
