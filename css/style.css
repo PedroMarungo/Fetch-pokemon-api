@@ -29,3 +29,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+/*------------------------------------*\
+  site header global styles
+\*------------------------------------*/
+.site-header {
+  text-transform: uppercase;
+  background-color: var(--color-red-shade);
+  text-align: center;
+  padding-top: 1rem;
+}
+.site-header h1,
+.site-header h2 {
+  text-transform: uppercase;
+  color: var(--color-light-shade);
+}
+.site-header h1 {
+  font-family: "Righteous", cursive;
+  font-size: 5.6rem; /* 89.6px */
+}
+
+.site-header h2 {
+  font-family: "Carter One", cursive;
+  font-size: 2.2rem;
+  background-color: var(--color-darker-shade);
+}
