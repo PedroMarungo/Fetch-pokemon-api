@@ -47,7 +47,8 @@ The application is built using the following technologies:
 - Flexbox
 - JavaScript (ES6)
 - Fetch API
-Contributor's Guide
+
+## Contributor's Guide
 We welcome contributions to the Pokemon Open API App! If you would like to contribute to the project, please follow the guidelines below:
 
 1. Fork the Repository
