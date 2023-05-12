@@ -11,4 +11,19 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((res) => res.json())
       .then((data) => data.results.forEach(getPokemon));
   };
+
+  //
+  /**
+   * Function to get individual Pokemon data
+   * Fetches data for an individual Pokemon.
+   * Takes a Pokemon object with name and URL properties.
+   * Fetches the Pokemon's data using the URL property.
+   * Calls the renderPokemon function with the retrieved Pokemon data.
+   */
+  const getPokemon = (pokemon) => {
+    const pokemonUrl = pokemon.url;
+    fetch(pokemonUrl)
+      .then((res) => res.json())
+      .then(renderPokemon);
+  };
 });
