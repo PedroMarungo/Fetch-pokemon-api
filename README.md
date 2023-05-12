@@ -13,7 +13,7 @@ To run the application, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/PedroMarungo/Fetch-pokemon-api.git
    ```
 
 2. Open the `index.html` file in your preferred web browser.
