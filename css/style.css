@@ -21,6 +21,7 @@
   /* White secondary background */
   --color-white-shade: #fff;
 }
+
 /*------------------------------------*\
   css global reset
 \*------------------------------------*/
@@ -64,6 +65,7 @@
   background-color: var(--color-light-shade);
   background-image: url("../pattern.jpg");
   color: var(--color-white-shade);
+  position: absolute;
 }
 .card {
   background-color: var(--color-dark-shade);
@@ -71,8 +73,9 @@
   list-style: none;
   border-radius: 1rem;
   box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.2);
-  width: 22%;
+  width: 25%;
   margin-top: 1rem;
+  position: relative;
 }
 .card-info {
   display: flex;
@@ -104,7 +107,7 @@
   width: 55%;
 }
 /*------------------------------------*\
-  DOM on click event card effect
+  DOM on click even card effect
 \*------------------------------------*/
 .holo {
   background: linear-gradient(140.54deg, #608d00 0%, #d30000 72.37%),
