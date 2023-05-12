@@ -35,8 +35,7 @@ The application fetches data from the Pokemon Open API and displays it on the HT
 The application demonstrates the following functionality:
 
 - Fetching a list of Pokemon and displaying their names, images, and other details.
-- Searching for a specific Pokemon by name or ID.
-- Handling errors and displaying appropriate messages if the API requests fail.
+
 
 ## Technologies Used
 
