@@ -51,7 +51,7 @@ The application is built using the following technologies:
 We welcome contributions to the Pokemon Open API App! If you would like to contribute to the project, please follow the guidelines below:
 
 1. Fork the Repository
-   - Visit the repository on GitHub at https://github.com/your-username/your-repository.
+   - Visit the repository on GitHub a(https://github.com/PedroMarungo/Fetch-pokemon-api.git)
    - Click on the "Fork" button in the top-right corner of the page.
    - This will create a copy of the repository in your GitHub account.
 
@@ -59,7 +59,7 @@ We welcome contributions to the Pokemon Open API App! If you would like to contr
    - On your local machine, open a terminal or command prompt.
    - Clone the forked repository using the following command:
      ```
-     git clone https://github.com/your-username/your-repository.git
+     git clone (https://github.com/PedroMarungo/Fetch-pokemon-api.git)
      ```
    - Replace "your-username" with your GitHub username and "your-repository" with the name of your forked repository.
 
