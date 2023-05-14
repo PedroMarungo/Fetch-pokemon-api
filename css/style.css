@@ -121,3 +121,34 @@
   background-blend-mode: color-dodge, overlay, difference, normal;
   color: var(--color-white-shade);
 }
+.holo {
+  background-blend-mode: color-dodge, overlay, difference, normal;
+}
+
+.holo h3,
+.shine h1 {
+  font-family: "Carter One", cursive;
+}
+
+.holo p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Righteous", cursive;
+}
+
+.holo .card-info {
+  border: none;
+  background: #780206;
+  background: -webkit-linear-gradient(to right, #061161, #780206);
+  background: linear-gradient(to right, #061161, #780206);
+}
+
+.shine {
+  background: #333333;
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  background: linear-gradient(to right, #dd1818, #333333);
+}
+
+.shine h1 {
+  font-size: 5.1rem;
+}
